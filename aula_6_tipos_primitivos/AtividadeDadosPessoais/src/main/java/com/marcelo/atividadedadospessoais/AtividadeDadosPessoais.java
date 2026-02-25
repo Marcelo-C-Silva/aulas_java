@@ -23,3 +23,4 @@ public class AtividadeDadosPessoais {
 //char guarda caractere
 //boolean serve para decisões, verdadeiro ou falso, true ou false
 //float tem quase a mesma capacidade do double, com menos qualidade, se eu quiser realmente um float, terei que colocar um "f"/"F" no final para que o compilador entenda
+//long serve para colocar numeros extensos, se eu quisesse, poderia colocar um "l"/"L" no final
