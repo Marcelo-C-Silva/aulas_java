@@ -18,3 +18,8 @@ public class AtividadeDadosPessoais {
         System.out.println("população brasileira é de " + populacao + " pessoas" );
     }
 }
+//int serve para armazenar numeros inteiros, ou seja, numnero sem virgula/ponto
+//double já serve pra armazenar numeros quebrados, com ponto/virgula
+//char guarda caractere
+//boolean serve para decisões, verdadeiro ou falso, true ou false
+//float tem quase a mesma capacidade do double, com menos qualidade, se eu quiser realmente um float, terei que colocar um "f"/"F" no final para que o compilador entenda
