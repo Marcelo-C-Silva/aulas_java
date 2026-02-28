@@ -1,21 +1,37 @@
 package com.marcelo.atividadedadospessoais;
 
+import java.util.Scanner;
+
 public class AtividadeDadosPessoais {
 
     public static void main(String[] args) {
-        int idade = 27;
-        double altura = 1.78;
-        char letraInicialNome = 'J';
-        boolean estudante = true;
-        float peso = 68.00f;
-        long populacao = 213421037;
         
-        System.out.println("sua idade é " + idade );
-        System.out.println("sua altura é " + altura );
-        System.out.println("a primeira letra do seu nome é " + letraInicialNome );
-        System.out.println("você é estudante? " + estudante );
-        System.out.println("seu peso é " + peso );
-        System.out.println("população brasileira é de " + populacao + " pessoas" );
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Bom dia, como posso lhe chamar?");
+        String nome = input.next();
+        System.out.println("coloque sua idade " );
+        int idade = input.nextInt();
+        System.out.println("Agora coloque sua altura");
+        double altura = input.nextDouble();
+        System.out.println("Qual a primeira letra do seu nome?");
+        char primeiraLetra = input.next().charAt(0);
+        System.out.println("você é estudante? ");   
+        boolean estudante = input.nextBoolean();
+        System.out.println("Qual seu peso?");
+        float peso = input.nextFloat();
+        System.out.println("Numero de população BR ");
+        long populacao = input.nextLong();
+        
+        System.out.println("****************************************************");
+        System.out.println("Certo, " + nome + " aqui esta seus dados");
+        System.out.println("Sua idade é: " + idade);
+        System.out.println("Sua altura é: " + altura );
+        System.out.println("A primeira letra do seu nome é: " + primeiraLetra);
+        System.out.println("Você é estudante?: " + estudante);
+        System.out.println("Seu peso é: " + peso + "Kg");
+        System.out.println("O numero populacional do Brasil é: " + populacao);
+        System.out.println("****************************************************");
     }
 }
 //int serve para armazenar numeros inteiros, ou seja, numnero sem virgula/ponto
