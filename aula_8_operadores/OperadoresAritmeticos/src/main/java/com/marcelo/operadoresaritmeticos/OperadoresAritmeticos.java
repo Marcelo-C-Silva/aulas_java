@@ -17,5 +17,9 @@ public class OperadoresAritmeticos {
         
         System.out.println(soma);
         
+        soma = soma / 2;
+        
+        System.out.println(soma);
+        
     }
 }
