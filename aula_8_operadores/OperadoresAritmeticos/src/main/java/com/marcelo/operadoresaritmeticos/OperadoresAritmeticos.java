@@ -8,5 +8,10 @@ public class OperadoresAritmeticos {
         int soma = 1 + 2;
         
         System.out.println(soma);
+        
+        soma = soma - 1;
+        
+        System.out.println(soma);
+        
     }
 }
