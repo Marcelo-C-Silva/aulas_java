@@ -25,5 +25,8 @@ public class OperadoresAritmeticos {
         soma++;
         System.out.println(soma);
         
+        soma--;
+        System.out.println(soma);
+        
     }
 }
