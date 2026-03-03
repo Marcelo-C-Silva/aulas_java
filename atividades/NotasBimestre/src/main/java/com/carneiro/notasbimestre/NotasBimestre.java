@@ -23,3 +23,4 @@ public class NotasBimestre {
         System.out.printf("Sua nota parcial é: %.2f", resultado);
     }
 }
+//usei printf para organizar melhor os decimais
