@@ -15,7 +15,7 @@ public class AreaDoQuadrado {
         System.out.println("O valor da área do seu quadrado é: " + area + "cm²");
         
         double dobroDaArea = area*2;
-        System.out.println("Esse é o dobro da sua área: " + dobroDaArea);
+        System.out.println("Esse é o dobro da sua área: " + dobroDaArea + "cm²");
         
         
         
