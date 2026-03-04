@@ -19,4 +19,8 @@ public class CalcularHorasTrabalho {
         System.out.println("Seu salario desse mês está no valor de :"+ calculoSalarioMes );
     }
 }
-//Crie um programa que solicite o valor do raio de um círculo e calcule sua área.
+
+//Crie um programa que pergunte:
+//Quanto o usuário ganha por hora
+//Quantas horas trabalha no mês
+//Com essas informações, o programa deve calcular e exibir o total do salário no referido mês.
