@@ -19,3 +19,4 @@ public class CalcularHorasTrabalho {
         System.out.println("Seu salario desse mês está no valor de :"+ calculoSalarioMes );
     }
 }
+//Crie um programa que solicite o valor do raio de um círculo e calcule sua área.
