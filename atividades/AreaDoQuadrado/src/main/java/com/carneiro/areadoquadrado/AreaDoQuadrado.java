@@ -21,3 +21,5 @@ public class AreaDoQuadrado {
         
     }
 }
+
+//Crie um programa que calcule a área de um quadrado com base no valor do lado informado pelo usuário.
