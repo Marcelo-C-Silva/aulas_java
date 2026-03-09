@@ -20,7 +20,17 @@ public class NotasBimestre {
         
         
         double resultado = (nota1 + nota2 + nota3)/3;
-        System.out.printf("Sua nota parcial é: %.2f", resultado);
+        
+        if(resultado >= 7){
+            System.out.println("Sua nota foi: " + resultado);
+            System.out.println("Aprovado");
+        }else if(resultado == 6){
+            System.out.println("Sua nota foi: " + resultado);
+            System.out.println("Recuperação");
+        }else{
+            System.out.println("Sua nota foi: " + resultado);
+            System.out.println("Reprovado");
+        }
     }
 }
 //usei printf para organizar melhor os decimais
