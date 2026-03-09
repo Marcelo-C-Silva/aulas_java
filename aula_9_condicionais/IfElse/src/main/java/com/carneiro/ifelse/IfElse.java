@@ -9,7 +9,7 @@ public class IfElse {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Digite um Numero real e eu falarei se é negativo ou positivo");
-        int numero = scan.nextInt();
+        double numero = scan.nextDouble();
         
         if(numero >= 0){
             System.out.println("O numero é positivo");
