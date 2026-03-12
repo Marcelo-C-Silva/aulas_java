@@ -6,6 +6,8 @@ public class CalcularHorasTrabalho {
 
     public static void main(String[] args) {
         
+        
+        
         Scanner scan = new Scanner(System.in);
         System.out.println("Vamos calcular seu salário desse mês");
         
@@ -17,6 +19,10 @@ public class CalcularHorasTrabalho {
         
         double calculoSalarioMes = valorPorHora * horasTrabalhadas;
         System.out.println("Seu salario desse mês está no valor de :"+ calculoSalarioMes );
+        
+        double impostoDeRenda = calculoSalarioMes -(calculoSalarioMes*0.11);
+        double inss = calculoSalarioMes - impostoDeRenda;
+        System.out.println("Você pagou o valor "+ inss +" de INSS" );
     }
 }
 

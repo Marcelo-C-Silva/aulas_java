@@ -15,7 +15,7 @@ public class MultaPorExcesso {
         int excesso = excedido * 4;
         
         if(peso > limite){
-            System.out.println("O peso excedeu "+ excedido +"Kg" + "\nO valor da multa a ser pago vai ser de: " + excesso);
+            System.out.println("O peso excedeu "+ excedido +"Kg" + "\nO valor da multa a ser pago vai ser de: " + excesso+"R$");
         }else{
             System.out.println("Não excedeu.");
         }
