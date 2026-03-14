@@ -1,16 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.carneiro.coberturapormetroquadrado;
 
-/**
- *
- * @author kirob
- */
+import java.util.Scanner;
+
 public class CoberturaPorMetroQuadrado {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite o tamanho da area em metros quadrados:");
+        double area = scan.nextDouble();
+
+        double litros = area / 3;
+
+        double latas = Math.ceil(litros / 18);
+
+        double preco = latas * 80;
+
+        System.out.println("Quantidade de latas: " + latas);
+        System.out.println("Preço total: R$ " + preco);
+
+        
     }
 }
