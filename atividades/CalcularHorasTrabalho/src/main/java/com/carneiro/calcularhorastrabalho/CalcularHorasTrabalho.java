@@ -23,6 +23,7 @@ public class CalcularHorasTrabalho {
         double impostoDeRenda = calculoSalarioMes -(calculoSalarioMes*0.11);
         double inss = calculoSalarioMes - impostoDeRenda;
         System.out.println("Você pagou o valor "+ inss +" de INSS" );
+        
     }
 }
 
