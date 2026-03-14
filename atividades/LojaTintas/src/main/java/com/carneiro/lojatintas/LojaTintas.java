@@ -8,7 +8,7 @@ public class LojaTintas {
         System.out.println("Digite o tamanho da area em metros quadrados:");
         double area = scan.nextDouble();
 
-        area = area * 1.1; // adiciona 10%
+        area = area * 1.1; 
 
         double litros = area / 6;
 
