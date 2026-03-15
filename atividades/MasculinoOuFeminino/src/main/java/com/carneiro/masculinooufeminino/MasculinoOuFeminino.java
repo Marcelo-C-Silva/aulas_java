@@ -9,7 +9,7 @@ public class MasculinoOuFeminino {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite F ou M \nF-Feminino\nM-Masculino");
         
-        char letra = scan.next().charAt(0); 
+        char letra = scan.next().toUpperCase().charAt(0); 
         
         if(letra == 'F'){
             System.out.println("Feminino");
