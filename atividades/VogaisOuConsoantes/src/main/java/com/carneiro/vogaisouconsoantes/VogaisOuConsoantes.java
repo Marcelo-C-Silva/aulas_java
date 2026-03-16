@@ -10,11 +10,22 @@ public class VogaisOuConsoantes {
         System.out.println("Escreva uma letra e eu te falarei se é vogal ou consoante");
 
         char letra = scan.next().toUpperCase().charAt(0);
-        if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U'){
+        /**if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U'){
         System.out.println("É uma vogal");
         }else{
             System.out.println("É uma consoante");
-            }
-
+            }**/
+        switch (letra){
+            case 'A':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                System.out.println("É uma vogal");
+                break;
+                
+            default:
+              System.out.println("É uma consoante");  
+        }
     }
 }
