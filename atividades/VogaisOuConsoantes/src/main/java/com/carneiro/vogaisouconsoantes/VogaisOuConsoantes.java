@@ -17,10 +17,10 @@ public class VogaisOuConsoantes {
             }**/
         switch (letra){
             case 'A':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
                 System.out.println("É uma vogal");
                 break;
                 
